@@ -1,0 +1,236 @@
+[SK diagnostic] Initializing StereoKit v0.4.0 Linux x64...
+[SK diagnostic] Initializing Platform
+[SK diagnostic] [sk_gpu] EGL version 1.5
+[SK diagnostic] [sk_gpu] Using OpenGL: OpenGL ES 3.1 Mesa 23.2.1-1ubuntu3.1~22.04.2
+[SK diagnostic] [sk_gpu] Device: D3D12 (NVIDIA GeForce RTX 2080)
+[SK diagnostic] Starting a Offscreen mode app
+[SK diagnostic] Initializing Audio
+[SK info] Using audio backend: Null
+[SK diagnostic] Initializing Assets
+[SK diagnostic] Initializing Defaults
+[SK diagnostic] Initializing Sprites
+[SK diagnostic] Initializing Lines
+[SK diagnostic] Initializing UI
+[SK diagnostic] Initializing Tools
+[SK diagnostic] Initializing Renderer
+[SK diagnostic] Initializing World
+[SK diagnostic] Initializing Input
+[SK info] Initialization successful
+[SK diagnostic] sprite_create: Atlased sprites not implemented yet! All atlased sprites will be switched to single.
+[SK info] Starting Scene: DemoWelcome
+[SK info] App focus changed to: Active
+[SK info] Starting Scene: DemoAssets
+[SK info] Tex - default/tex
+[SK info] Tex - default/tex_black
+[SK info] Tex - default/tex_gray
+[SK info] Tex - default/tex_flat
+[SK info] Tex - default/tex_rough
+[SK info] Tex - default/tex_devtex
+[SK info] Tex - default/tex_error
+[SK info] Tex - default/cubemap
+[SK info] Mesh - default/mesh_quad
+[SK info] Mesh - default/mesh_screen_quad
+[SK info] Mesh - default/mesh_cube
+[SK info] Mesh - default/mesh_sphere
+[SK info] Shader - default/shader
+[SK info] Shader - default/shader_blit
+[SK info] Shader - default/shader_unlit
+[SK info] Shader - default/shader_unlit_clip
+[SK info] Shader - default/shader_lightmap
+[SK info] Shader - default/shader_font
+[SK info] Shader - default/shader_equirect
+[SK info] Shader - default/shader_ui
+[SK info] Shader - default/shader_ui_box
+[SK info] Shader - default/shader_ui_quadrant
+[SK info] Shader - default/shader_ui_aura
+[SK info] Shader - default/shader_sky
+[SK info] Shader - default/shader_lines
+[SK info] Shader - default/shader_pbr
+[SK info] Shader - default/shader_pbr_clip
+[SK info] Material - default/material
+[SK info] Material - default/material_pbr
+[SK info] Material - default/material_pbr_clip
+[SK info] Material - default/material_unlit
+[SK info] Material - default/material_unlit_clip
+[SK info] Material - default/equirect_convert
+[SK info] Material - default/material_font
+[SK info] Material - default/material_ui
+[SK info] Material - default/material_ui_box
+[SK info] Material - default/material_ui_quadrant
+[SK info] Material - default/material_ui_aura
+[SK info] Font - default/font
+[SK info] Tex - sk_font::4069747501473745525/atlas_tex
+[SK info] Mesh - auto/asset_40
+[SK info] Sound - default/sound_click
+[SK info] Sound - default/sound_unclick
+[SK info] Sound - default/sound_grab
+[SK info] Sound - default/sound_ungrab
+[SK info] Model - default/model_controller_l
+[SK info] Mesh - sk::default_controller_l.glb/mesh/0_0_Controller
+[SK info] Material - sk::default_controller_l.glb/mat/Material
+[SK info] Model - default/model_controller_r
+[SK info] Mesh - sk::default_controller_r.glb/mesh/0_0_Controller
+[SK info] Material - sk::default_controller_r.glb/mat/Material
+[SK info] Mesh - render/sprite_quad
+[SK info] Material - render/line_material
+[SK info] Mesh - sk/ui/mesh_button
+[SK info] Mesh - sk/ui/mesh_input
+[SK info] Mesh - sk/ui/mesh_plane
+[SK info] Mesh - sk/ui/mesh_panel
+[SK info] Mesh - sk/ui/mesh_panel_top
+[SK info] Mesh - sk/ui/mesh_panel_bot
+[SK info] Mesh - sk/ui/mesh_slider
+[SK info] Mesh - sk/ui/mesh_slider_left
+[SK info] Mesh - sk/ui/mesh_slider_right
+[SK info] Mesh - sk/ui/mesh_slider_pinch
+[SK info] Mesh - sk/ui/mesh_slider_push
+[SK info] Mesh - sk/ui/mesh_separator
+[SK info] Mesh - auto/asset_65
+[SK info] Material - sk/ui/mat_transparent
+[SK info] Material - sk/ui/mat_opaque
+[SK info] Material - sk/ui/mat_opaque_same_z
+[SK info] Tex - sk/ui/toggle_on_tex
+[SK info] Sprite - sk/ui/toggle_on
+[SK info] Material - render/sprite_mat_0
+[SK info] Tex - sk/ui/toggle_off_tex
+[SK info] Sprite - sk/ui/toggle_off
+[SK info] Material - render/sprite_mat_1
+[SK info] Tex - sk/ui/radio_on_tex
+[SK info] Sprite - sk/ui/radio_on
+[SK info] Material - render/sprite_mat_2
+[SK info] Tex - sk/ui/radio_off_tex
+[SK info] Sprite - sk/ui/radio_off
+[SK info] Material - render/sprite_mat_3
+[SK info] Tex - sk/ui/backspace_tex
+[SK info] Sprite - sk/ui/backspace
+[SK info] Material - render/sprite_mat_4
+[SK info] Tex - sk/ui/shift_tex
+[SK info] Sprite - sk/ui/shift
+[SK info] Material - render/sprite_mat_5
+[SK info] Tex - sk/ui/close_tex
+[SK info] Sprite - sk/ui/close
+[SK info] Material - render/sprite_mat_6
+[SK info] Tex - sk/ui/arrow_left_tex
+[SK info] Sprite - sk/ui/arrow_left
+[SK info] Material - render/sprite_mat_7
+[SK info] Tex - sk/ui/arrow_right_tex
+[SK info] Sprite - sk/ui/arrow_right
+[SK info] Material - render/sprite_mat_8
+[SK info] Tex - sk/ui/arrow_up_tex
+[SK info] Sprite - sk/ui/arrow_up
+[SK info] Material - render/sprite_mat_9
+[SK info] Tex - sk/ui/arrow_down_tex
+[SK info] Sprite - sk/ui/arrow_down
+[SK info] Material - render/sprite_mat_10
+[SK info] Tex - sk/ui/list_tex
+[SK info] Sprite - sk/ui/list
+[SK info] Material - render/sprite_mat_11
+[SK info] Tex - sk/ui/grid_tex
+[SK info] Sprite - sk/ui/grid
+[SK info] Material - render/sprite_mat_12
+[SK info] Material - sk/ui/debug_mat
+[SK info] Material - sk/ui/default_mat
+[SK info] Sound - sk/ui/tick_snd
+[SK info] Mesh - sk/render/skybox_mesh
+[SK info] Material - sk/render/skybox_material
+[SK error] Found an invalid asset type!
+[SK info] Material - default/world_mat
+[SK info] Material - default/material_hand
+[SK info] Tex - auto/asset_116
+[SK info] Mesh - default/mesh_lefthand
+[SK info] Mesh - default/mesh_righthand
+[SK info] Shader - Shaders/floor_shader.hlsl
+[SK info] Material - auto/asset_120
+[SK info] Mesh - auto/asset_121
+[SK info] Model - auto/asset_122
+[SK info] Tex - power.png
+[SK info] Sprite - power.png/spr
+[SK info] Material - render/sprite_mat_13
+[SK info] Model - Wand.glb
+[SK info] Mesh - Wand.glb/mesh/2_0_Plane
+[SK info] Material - Wand.glb/mat/Material.001
+[SK info] Material - auto/asset_129
+[SK info] Mesh - auto/asset_130
+[SK info] Material - auto/asset_131
+[SK info] Mesh - auto/asset_132
+[SK info] Material - auto/asset_133
+[SK info] Mesh - auto/asset_134
+[SK info] Material - auto/asset_135
+[SK info] Mesh - auto/asset_136
+[SK info] Material - auto/asset_137
+[SK info] Mesh - auto/asset_138
+[SK info] Mesh - render/line_mesh
+[SK info] Starting Scene: DemoControllers
+[SK info] Starting Scene: DemoDevice
+[SK info] Starting Scene: DemoEyes
+[SK info] Starting Scene: DemoFBPassthrough
+[SK info] Starting Scene: DemoGeo
+[SK info] Starting Scene: DemoHandPoses
+[SK info] Starting Scene: DemoHands
+[SK info] Starting Scene: DemoLighting
+[SK info] Starting Scene: DemoLineRender
+[SK info] Starting Scene: DemoLines
+[SK info] Starting Scene: DemoManyObjects
+[SK info] Starting Scene: DemoMaterial
+[SK info] Starting Scene: DemoMaterialChain
+[SK info] Starting Scene: DemoMath
+[SK info] Starting Scene: DemoMicrophone
+[SK info] Starting Scene: DemoNodes
+[SK info] Starting Scene: DemoPBR
+[SK info] Builtin PBR Materials contain these parameters:
+[SK info] - color : Color128
+[SK info] - emission_factor : Color128
+[SK info] - tex_trans : Vector4
+[SK info] - metallic : Float
+[SK info] - roughness : Float
+[SK info] - sk_cubemap : Texture
+[SK info] - diffuse : Texture
+[SK info] - emission : Texture
+[SK info] - metal : Texture
+[SK info] - occlusion : Texture
+[SK info] Builtin Unlit Materials contain these parameters:
+[SK info] - color : Color128
+[SK info] - tex_trans : Vector4
+[SK info] - diffuse : Texture
+[SK info] Starting Scene: DemoPicker
+[SK info] Starting Scene: DemoPointCloud
+[SK info] Starting Scene: DemoRayMesh
+[SK info] Starting Scene: DemoRecordMic
+[SK info] Starting Scene: DemoRenderList
+[SK info] Starting Scene: DemoRenderScaling
+[SK info] Starting Scene: DemoSkeleton
+[SK info] Starting Scene: DemoSound
+[SK info] Starting Scene: DemoText
+[SK info] Starting Scene: DemoTextInput
+[SK info] Starting Scene: DemoTextures
+[SK info] Starting Scene: DemoUI
+[SK info] Starting Scene: DemoUIGrabBar
+[SK info] Starting Scene: DemoUISettings
+[SK info] Starting Scene: DemoUITearsheet
+[SK info] Starting Scene: DemoUnicode
+[SK info] Starting Scene: DemoWelcome
+[SK info] Starting Scene: DemoWorldMesh
+[SK info] Starting Scene: DocAnim
+[SK info] Animation: Idle 3.5s
+[SK info] Animation: Jump 4s
+[SK info] Starting Scene: DocBackend
+[SK info] Starting Scene: DocBounds
+[SK info] Super easy to check if something's in it!
+[SK info] Bounds intersection at [0, 0.5, 0]
+[SK info] Starting Scene: DocBtnState
+[SK info] Starting Scene: DocColor
+[SK info] Starting Scene: DocDebug
+[SK info] 0.0s have elapsed since StereoKit start.
+[SK diagnostic] 0.0s have elapsed since StereoKit start.
+[SK info] 0.0s have elapsed since StereoKit start.
+[SK warning] Warning! 0.0s have elapsed since StereoKit start!
+[SK info] Starting Scene: DocEyes
+[SK info] Starting Scene: DocFeatureImage
+Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StereoKit.Input.Hand(Handed handed) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/StereoKit/Systems/Input.cs:line 437
+   at DocVolumeAt.Step() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Docs/DocVolumeAt.cs:line 36
+   at Tests.Update() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Tests.cs:line 74
+   at Program.Step() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 145
+   at StereoKit.SK.Run(Action onStep, Action onShutdown) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/StereoKit/SK.cs:line 231
+   at Program.Main(String[] args) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 99
+[SK info] Starting Scene: 
