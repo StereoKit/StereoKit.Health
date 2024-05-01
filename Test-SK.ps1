@@ -1,7 +1,7 @@
 param (
     [string]$branch = "develop",
     [string]$commit = $null,
-    [bool]$submit = $false
+    [switch]$submit = $false
 )
 
 # Define the repository URL and the target directory

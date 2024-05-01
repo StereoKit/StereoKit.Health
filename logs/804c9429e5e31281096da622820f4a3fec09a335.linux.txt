@@ -229,8 +229,8 @@
 Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
    at StereoKit.Input.Hand(Handed handed) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/StereoKit/Systems/Input.cs:line 437
    at DocVolumeAt.Step() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Docs/DocVolumeAt.cs:line 36
-   at Tests.Update() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Tests.cs:line 74
-   at Program.Step() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 145
+   at Tests.Update() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Tests.cs:line 52
+   at Program.Step() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 171
    at StereoKit.SK.Run(Action onStep, Action onShutdown) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/StereoKit/SK.cs:line 231
    at Program.Main(String[] args) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 99
 [SK info] Starting Scene: 
