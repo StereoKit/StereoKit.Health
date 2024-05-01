@@ -1,6 +1,7 @@
 param (
     [string]$branch = "develop",
-    [string]$commit = $null
+    [string]$commit = $null,
+    [bool]$submit = $false
 )
 
 # Define the repository URL and the target directory
@@ -118,3 +119,15 @@ $content | Set-Content "readme.md"
 
 Write-Host "Done! $($entryObject.LErrs) errors, crashed: $($entryObject.LCrash)"
 # $date = Get-Date -Format "yyyy-MM-dd"
+
+if ($submit) {
+    $changes = git status --porcelain
+    if ($changes) {
+        git add .
+        $commitMessage = "Commit build data for $($currentCommitHash.Substring(0, 7))"
+        git commit -m $commitMessage
+        git push
+    } else {
+        Write-Output "No changes to commit."
+    }
+}
