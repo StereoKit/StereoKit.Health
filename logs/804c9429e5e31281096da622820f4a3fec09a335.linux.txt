@@ -1,11 +1,12 @@
 [SK diagnostic] Initializing StereoKit v0.4.0 Linux x64...
 [SK diagnostic] Initializing Platform
+[SK diagnostic] [sk_gpu] Trying EGL direct rendering from /dev/dri/renderD128
 [SK diagnostic] [sk_gpu] EGL version 1.5
-[SK diagnostic] [sk_gpu] Using OpenGL: OpenGL ES 3.1 Mesa 23.2.1-1ubuntu3.1~22.04.2
-[SK diagnostic] [sk_gpu] Device: D3D12 (NVIDIA GeForce RTX 2080)
+[SK diagnostic] [sk_gpu] Using OpenGL: OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.2
+[SK diagnostic] [sk_gpu] Device: Mesa Intel(R) UHD Graphics (JSL)
 [SK diagnostic] Starting a Offscreen mode app
 [SK diagnostic] Initializing Audio
-[SK info] Using audio backend: Null
+[SK info] Using audio backend: PulseAudio
 [SK diagnostic] Initializing Assets
 [SK diagnostic] Initializing Defaults
 [SK diagnostic] Initializing Sprites
@@ -224,13 +225,11 @@
 [SK diagnostic] 0.0s have elapsed since StereoKit start.
 [SK info] 0.0s have elapsed since StereoKit start.
 [SK warning] Warning! 0.0s have elapsed since StereoKit start!
-[SK info] Starting Scene: DocEyes
-[SK info] Starting Scene: DocFeatureImage
 Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at StereoKit.Input.Hand(Handed handed) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/StereoKit/Systems/Input.cs:line 437
-   at DocVolumeAt.Step() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Docs/DocVolumeAt.cs:line 36
-   at Tests.Update() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Tests.cs:line 74
-   at Program.Step() in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 145
-   at StereoKit.SK.Run(Action onStep, Action onShutdown) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/StereoKit/SK.cs:line 231
-   at Program.Main(String[] args) in /mnt/c/Data/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 99
-[SK info] Starting Scene: 
+   at StereoKit.Input.Hand(Handed handed) in /home/koujaku/Repositories/StereoKit.Health/StereoKit/StereoKit/Systems/Input.cs:line 437
+   at DocVolumeAt.Step() in /home/koujaku/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Docs/DocVolumeAt.cs:line 36
+   at Tests.Update() in /home/koujaku/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Tests.cs:line 74
+   at Program.Step() in /home/koujaku/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 145
+   at StereoKit.SK.Run(Action onStep, Action onShutdown) in /home/koujaku/Repositories/StereoKit.Health/StereoKit/StereoKit/SK.cs:line 231
+   at Program.Main(String[] args) in /home/koujaku/Repositories/StereoKit.Health/StereoKit/Examples/StereoKitTest/Program.cs:line 99
+[SK info] Startin
